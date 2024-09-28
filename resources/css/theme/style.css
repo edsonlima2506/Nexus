@@ -205,6 +205,14 @@ aside .navbar-collapse .dropdown-toggle {
     padding-right: 0 !important;
 }
 
+/* aside .navbar-collapse, aside .container-fluid, header .topbar-transparent {
+} */
+
+[data-menu-theme=dark] aside .navbar-collapse, aside .container-fluid {
+    background-color: var(--tblr-gray-dark) !important;
+    border-right: #21262D 2px solid;
+}
+
 /* Allow two levels of nesting. */
 .navbar-vertical.navbar-expand-lg .navbar-collapse .dropdown-menu .dropdown-menu .dropdown-menu .dropdown-item {
     padding-left: calc(calc(calc(var(--tblr-page-padding) * 2)/ 2) + 2rem);
